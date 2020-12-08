@@ -7,6 +7,10 @@
 
 ## Dependencies
 
+### Used by
+
+ - [my-component](../my-component)
+
 ### Depends on
 
 - [s-cnt-market-ordering-header](./res/view/s-cnt-market-ordering-header)
@@ -29,6 +33,7 @@ graph TD;
   s-cnt-market-ordering-payment --> s-cnt-market-ordering-payment-transfer
   s-cnt-market-ordering-time-of-receipt --> s-cnt-market-ordering-time-panel-tab
   s-cnt-market-ordering-time-of-receipt --> s-cnt-market-ordering-time-panel-item
+  my-component --> s-cnt-market-ordering
   style s-cnt-market-ordering fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
